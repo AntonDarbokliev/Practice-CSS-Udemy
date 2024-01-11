@@ -128,6 +128,22 @@ body {
     color: white;
 }
 
+.button {
+    font:inherit;
+    border: 1.5px #0e4f1f solid;
+    background: #0e4f1f;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background: white;
+    color:#0e4f1f
+}
+
 
 .main-logo {
     color: #0e4f1f;
