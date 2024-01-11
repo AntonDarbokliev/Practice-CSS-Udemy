@@ -2,11 +2,20 @@ main{
     padding-top: 32px;
 }
 
+.background {
+    background: url('../images/plans-background.jpg');
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .plan{
     border: 3px #0e4f1f solid;
     border-left: none;
     margin: 16px 0px;
     width: 80%;
+    position: relative;
 }
 
 .plan:hover,
@@ -48,6 +57,18 @@ main{
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+.plan__badge{
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    color: white;
+    background: #ff5454;
+    padding: 15px;
+    font-size: 12px;
+    margin: 20px
 }
 
 .plan__subtitle {
