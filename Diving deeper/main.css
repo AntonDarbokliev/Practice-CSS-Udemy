@@ -1,26 +1,4 @@
 
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin : 0;
-}
-
-.main-logo {
-    color: #0e4f1f;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 28px;
-}
-
-
-.main-header {
-    background-color: #2ddf5c;
-    padding: 8px 16px;
-    width: 100%;
-    margin-bottom: 10px;
-}
 
 
 #product-overview {
@@ -35,57 +13,6 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-.main-header > div{
-    display: inline-block;
-    vertical-align: middle;
-
-}
-
-.main-nav__items{
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 92px);
-    vertical-align: middle;
-}
-
-.main-nav__items > ul {
-    vertical-align: middle;
-    
-}
-
-.main-nav__item{
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.main-nav__item > a{
-    text-decoration: none;
-    color: #0e4f1f;
-    font-weight: bold;
-    padding: 3px 0px ;
-}
-
-.main-nav__item > a:hover,
-.main-nav__item > a:active
-{
-    color : white;
-    border-bottom: 5px white solid;
-}
-
-.main-nav__item--cta > a{
-    background: #ff1b68;
-    color:white;
-    padding: 8px 16px;
-    border-radius: 5px;
-    border-bottom: none;
-}
-
-.main-nav__item--cta > a:hover,
-.main-nav__item--cta > a:active{
-    color:#ff1b68;
-    background-color: white;
-    border:none
-}
 
 
 .section-title {
@@ -204,30 +131,3 @@ body {
     font-size: 20px;
 }
 
-.main-footer{
-    background: black;
-    padding: 32px;
-    margin-top: 48px;
-}
-
-.main-footer ul {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.main-footer li>a{
-    text-decoration: none;
-    color: white;
-}
-
-.main-footer li>a:hover,
-.main-footer li>a:active{
-    color: #cccc;
-
-}
-
-.main-footer li{
-    display: inline-block;
-    margin: 0px 16px;
-}
