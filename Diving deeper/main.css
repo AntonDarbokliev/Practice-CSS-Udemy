@@ -13,6 +13,7 @@ body {
     padding: 20px;
     width: 100%;
     height: 528px;
+    color: white;
 }
 
 #product-overview h1{
@@ -73,9 +74,27 @@ body {
 
 
 .section-title {
-    background: white;
     color: #2ddf5c;
+    text-align: center;
 }
+
+.plan{
+    background-color: #d5ffdc;
+    display: inline-block;
+    width: 30%;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.plan--highlighted{
+    background:#19b84c ;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5)
+}
+
+/* #19b84c */
 
 .main-logo {
     color: #0e4f1f;
@@ -89,10 +108,4 @@ body {
     padding: 8px 16px;
     width: 100%;
     margin-bottom: 10px;
-}
-
-
-h1 {
-    color: white;
-    font-family: sans-serif;
 }
