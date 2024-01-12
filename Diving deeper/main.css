@@ -10,8 +10,8 @@
 #product-overview h1{
     font-family: 'Anton', sans-serif;
     position: absolute;
-    left: 30px;
-    top: 650px;
+    left: 5%;
+    bottom: 2%;
 }
 
 .section-title {
