@@ -11,6 +11,12 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 28px;
+    width: 50px;
+    display: inline-block;
+}
+
+.main-logo > img{
+    width: 100%;
 }
 
 
@@ -18,7 +24,6 @@ body {
     background-color: #2ddf5c;
     padding: 8px 16px;
     width: 100%;
-    margin-bottom: 10px;
     position: fixed;
     z-index: 1;
 }
