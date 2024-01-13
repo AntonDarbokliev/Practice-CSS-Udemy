@@ -95,9 +95,8 @@ body {
     font-size: 1.5rem;
   }
 
-.mobile-nav__items,
 .main-nav__items{
-    display: inline-block;
+    display: none;
     text-align: right;
     width: calc(100% - 110px);
     vertical-align: middle;
@@ -178,4 +177,15 @@ body {
 
 .open {
     display: block !important;
+}
+
+@media(min-width: 55rem ) {
+    .main-nav__items{
+        display: inline-block;
+    }
+
+    .toggle-button{
+        display:none
+    }
+
 }
