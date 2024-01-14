@@ -80,13 +80,14 @@
 }
 
 #key-features ul{
+    display: flex;
+    flex-direction: column;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 #key-features li{
-    display: block;
     margin: auto;
     width: 100%;
 }
@@ -169,20 +170,33 @@
 
     @media(min-width: 55rem){
         .plan{
-            display: inline-block;
-            width: 30%;
-            margin: 8px;
-            vertical-align: middle;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            width: 100rem;
+            height: 26rem;
             min-width: 13rem;
             max-width: 23rem;
         }
+
+        .plan__price {
+            margin: auto;
+        }
     
         .plan--highlighted{
-        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5)
-    
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+            height: 29rem;
+        }
+
+        .plan--highlighted .button {
+            margin-top: 1.5rem;
         }
     
        .plan__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 80%;
         margin:auto;
         text-align: center;
@@ -192,11 +206,17 @@
 
     @media(min-width: 55rem) {
         #key-features li {
-            display: inline-block;
+            
             width: 30%;
             vertical-align: top;
             margin: 0px 1.3rem;
             max-width: 23rem
+        }
+
+        #key-features ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
         }
 
     }

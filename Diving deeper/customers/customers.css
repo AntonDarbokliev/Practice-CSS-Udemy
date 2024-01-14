@@ -72,11 +72,11 @@
     .testimonial{
       max-width: 1750px;
       margin: 3rem auto;
-
+      display: flex;
     }
 
     .testimonial__image-container{
-      display: inline-block;
+      /* display: inline-block; */
       vertical-align: middle;
       width: 66%;  
     }
