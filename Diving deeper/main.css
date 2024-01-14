@@ -67,27 +67,6 @@
     color: white;
 }
 
-.button {
-    font:inherit;
-    border: 1.5px #0e4f1f solid;
-    background: #0e4f1f;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.button:hover,
-.button:active{
-    background: white;
-    color:#0e4f1f
-}
-
-.button:focus,
-.button:focus-visible{
-    outline: none;
-}
-
 #key-features .section-title {
     color: white;
     margin: 2rem;

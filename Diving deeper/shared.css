@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin : 0;
+}
+main{
+    margin-top: 4.4rem;
+    min-height: calc(100vh - 4.4rem - 8rem);
 }
 
 .backdrop {
@@ -43,9 +48,10 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.8rem;
+    height: 2.5rem;
     width: 3.1rem;
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .main-logo > img{
@@ -58,6 +64,7 @@ body {
     padding: 0.5rem 1rem;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 1;
 }
 
@@ -98,6 +105,7 @@ body {
 .main-nav__items{
     display: none;
     text-align: right;
+    
     width: calc(100% - 110px);
     vertical-align: middle;
 }
@@ -173,6 +181,27 @@ body {
 .main-footer li{
     display: inline-block;
     margin: 0px 1rem;
+}
+
+.button {
+    font:inherit;
+    border: 1.5px #0e4f1f solid;
+    background: #0e4f1f;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background: white;
+    color:#0e4f1f
+}
+
+.button:focus,
+.button:focus-visible{
+    outline: none;
 }
 
 .open {
