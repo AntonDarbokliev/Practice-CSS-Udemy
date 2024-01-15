@@ -6,10 +6,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin : 0;
+    display: grid;
+    grid-template-rows: 3.5rem auto 8rem;
+    grid-template-areas: 
+    'nav'
+    'main'
+    'footer';
 }
 main{
-    margin-top: 4.4rem;
+    /* margin-top: 4.4rem; */
     min-height: calc(100vh - 4.4rem - 8rem);
+    grid-area: main;
 }
 
 .backdrop {
@@ -157,6 +164,7 @@ main{
     background: black;
     padding: 2rem;
     margin-top: 3rem;
+    grid-area: footer;
 }
 
 .main-footer ul {
