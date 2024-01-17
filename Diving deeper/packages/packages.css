@@ -19,6 +19,7 @@ main{
     margin: 1rem 0px;
     width: 80%;
     position: relative;
+    overflow: hidden;
 }
 
 .plan:hover,
@@ -71,7 +72,11 @@ main{
     background: #ff5454;
     padding: 1rem;
     font-size: 0.8rem;
-    margin: 1.3rem
+    /* margin: 1.3rem; */
+    transform: rotateZ(45deg) translateX(3.3rem) translateY(-0.8rem);
+    width: 12rem;
+    text-align: center;
+
 }
 
 .plan__subtitle {
